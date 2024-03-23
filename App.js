@@ -1,16 +1,23 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native';
 import FlatCards from './component/FlatCards';
+import ElevatedCards from './component/ElevatedCards';
+import FancyCard from './component/FancyCard';
+import ActionCard from './component/ActionCard';
+import ContactList from './component/ContactList';
 
 export default function App() {
   return (
     <SafeAreaView>
       <ScrollView>
     
-      <Text>Hi</Text>
+     
      
     <FlatCards/>
-    
+    <ElevatedCards/>
+    <FancyCard/>
+    <ActionCard/>
+    <ContactList/>
     </ScrollView>
     </SafeAreaView>
   );
